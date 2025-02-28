@@ -12,9 +12,9 @@ void insertionSort(int arr[],int size){
    for(int i=1;i<size;i++){
       int temp=arr[i];
       int j=i-1;
-       // Compare temp with each element on the left of it until an element smaller than
-      // it is found.
-      // For descending order, change key<array[j] to key>array[j].
+       // Compare temp with each element on the left of it until an element smaller than 
+       //it is found.
+       // For descending order, change key<array[j] to key>array[j].
       
       while(j>=0 && temp<arr[j]){
          arr[j+1]=arr[j];
